@@ -1,0 +1,15 @@
+services:
+  agent-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ai-agent-project:latest
+    container_name: ai-agent-api
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    restart: unless-stopped

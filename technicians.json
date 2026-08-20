@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Arun Kumar",
+    "department": "IT Support",
+    "skills": ["wifi", "network", "laptop"],
+    "location": "Kattankulathur",
+    "available": true
+  },
+  {
+    "name": "Priya S",
+    "department": "Hostel Administration",
+    "skills": ["hostel", "mess", "plumbing"],
+    "location": "Kattankulathur",
+    "available": true
+  },
+  {
+    "name": "Vignesh R",
+    "department": "Facilities",
+    "skills": ["electrical", "plumbing", "ac", "outdoor"],
+    "location": "Kattankulathur",
+    "available": true
+  },
+  {
+    "name": "Meena L",
+    "department": "Registrar",
+    "skills": ["academics", "enrollment", "grades"],
+    "location": "Kattankulathur",
+    "available": true
+  },
+  {
+    "name": "Security Desk",
+    "department": "Campus Security",
+    "skills": ["safety", "security"],
+    "location": "Kattankulathur",
+    "available": true
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "example-1",
+    "user_message": "What's 45 * 12?",
+    "expected_tool": "calculator",
+    "notes": "Should call the calculator tool rather than compute mentally."
+  },
+  {
+    "id": "example-2",
+    "user_message": "What's the weather like in Chennai right now?",
+    "expected_tool": "weather",
+    "notes": "Should call the weather tool; requires WEATHER_API_KEY to return real data."
+  },
+  {
+    "id": "example-3",
+    "user_message": "Who won the latest ICC Cricket World Cup?",
+    "expected_tool": "search",
+    "notes": "Time-sensitive factual question; should call the search tool rather than guess."
+  }
+]
